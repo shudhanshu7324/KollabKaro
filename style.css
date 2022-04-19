@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #fffeff, #9eadee);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 1.2em;
+  color: rgb(16, 15, 15);
+}
+
+.navigation{
+  position: sticky;
+  background-color: #f7f7ff;
+  color: black;
+}
+
+.signup{
+  border-radius: 50px;
+  border: 2px solid rgb(207, 207, 207);
+  
+}
+
+.logo{
+  font-size: 30px;
+  margin-left: 60px;
+  
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+
+header .nav-item:last-child {
+  padding-right: 5em;
+}
+
+header .nav-item {
+  padding: 0.8em;
+}
+
+header .navbar-brand {
+  padding-left: 6rem;
+}
+
+header .nav-link:hover {
+  color: black;
+  background-color: #dbe0f4;
+  border-radius: 50px;
+}
+
+header .row .col-md-7 {
+  padding: 27vmin 0vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-3 {
+  padding: 10vmin 1vmin;
+}
+
+header .row .col-md-3 img {
+  width: 200%;
+}
+
+header {
+  /* background: #fffefe; */
+  background: var(--bggradient);
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h2 {
+  padding: 1vmin;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 6vmin;
+  
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+  color: rgb(91, 71, 108);
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.get-btn{
+border-radius: 50px;
+background-color: rgb(58, 51, 51);
+color: #fffeff;
+font-size: 20px;
+padding: 5px 20px;
+}
+
+.get-btn:hover{
+  background-color: transparent;
+  color: black;
+}
+
+/* features section */
+
+#features{
+  padding: 5% 10%;
+  background-color: #f7f7ff;
+  }
+  
+  .feature-box{
+      text-align: center;
+      padding: 5%;
+  }
+
+  
+
+  
+  /* Testimonial section */
+  
+  #testimonials{
+      /* padding: 7% 15%; */
+      text-align: center;
+      background: linear-gradient(to bottom, #b9c3f0, #ffffff);
+      color: rgb(0, 0, 0);
+      height: 50%;
+      padding: 10% 10%;
+  }
+  
+  .testimonial-img{
+    padding-top: 2%;
+      width: 40%;
+      border-radius: 100%;
+      margin: 20px;
+  }
+  
+  .corousel-item{
+      padding: 7% 15%;
+  }
+  
+  #press{
+      background: linear-gradient(to bottom, #9eadee, #ffffff);
+      text-align: center;
+      padding-bottom: 3%;
+  }
+  
+  .press-logo{
+      width: 15%;
+      margin: 20px 20px 50px;
+  }
+
+  /* Stats */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("Images/dosomething.jpg") center/cover no-repeat;
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content > p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.numbers .rect > p {
+  font-family: var(--Patua);
+}
+
+/* coming soon */
+
+.section-3 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: var(--bggradient);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: rgb(0, 0, 0);
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: var(black);
+  font-size: 3vmin;
+}
+
+.section-3 .desktop {
+  background: white;
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 2vmin;
+}
+
+/* feedback */
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 2vmin 5vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: .5em;
+}
+
+.section-4 .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  /* overflow-x: hidden; */
+  padding: 8vmin 18vmin;
+  height: 40vh;
+  margin-top: 50px;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
